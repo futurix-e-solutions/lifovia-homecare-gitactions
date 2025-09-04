@@ -1,0 +1,16 @@
+<div class="app-container">
+  <app-header (isMobileView)="onMobileChange($event)"></app-header>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+  <div *ngIf="!isMobile" class="position-fixed bottom-0 end-0 p-4" style="z-index: 1000">
+    <a [href]="'tel:+91' + phoneNumber" class="btn btn-danger btn-lg rounded-circle shadow-lg">
+      <i class="pi pi-phone" style="font-size: 1.5rem"></i>
+    </a>
+    <a [href]="'https://wa.me/91' + phoneNumber" target="_blank" class="btn btn-success btn-lg rounded-circle shadow-lg">
+      <i class="pi pi-whatsapp" style="font-size: 1.5rem"></i>
+    </a>
+  </div>
+  <app-footer-navbar *ngIf="isMobile"></app-footer-navbar>
+  <app-footer></app-footer>
+</div>
