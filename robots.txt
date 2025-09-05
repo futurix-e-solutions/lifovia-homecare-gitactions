@@ -1,0 +1,13 @@
+# robots.txt for https://lifoviahomecare
+
+User-agent: *
+Allow: /
+
+# Disallow unwanted system paths (Angular, API, internal)
+Disallow: /assets/
+Disallow: /server/
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://lifoviahomecare.in/sitemap.xml
