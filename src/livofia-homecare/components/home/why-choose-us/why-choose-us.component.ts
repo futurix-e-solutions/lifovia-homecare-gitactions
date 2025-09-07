@@ -64,7 +64,7 @@ import { phoneNumber } from '../../../../app/config/authority.constants';
               <div class="position-absolute bottom-0 end-0 translate-middle-y">
                 <div class="bg-primary-green text-white rounded-3 shadow p-3 text-center">
                   <h4 class="mb-1">24/7</h4>
-                  <small>Emergency Support</small>
+                  <small>Emergency Support 24/7 </small>
                 </div>
               </div>
             </div>
