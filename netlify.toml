@@ -1,0 +1,12 @@
+# Netlify Configuration for FTRX Soft Solutions
+# Documentation: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Build command
+  command = "npm run build"
+
+  # Directory to publish (Angular output directory)
+  publish = "dist/lifovia-homecare/browser"
+
+  # Functions directory (if using Netlify Functions)
+   functions = "netlify/functions"
